@@ -11,7 +11,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+
+	float pi = 3.14;
+	float raio = 5;
+
+	float area =pi * raio * raio;
+
+	printf(area);
+
+	puts(""); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
